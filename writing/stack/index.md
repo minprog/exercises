@@ -14,7 +14,7 @@ This is your last assignment in C! It's all about **abstract data types**. What 
 
 There are many dynamic data structures of many forms, and many of these structures are well-known and have been for decades. People have been designing data structures and algorithms since the dawn of the computing era in the 1950s.
 
-An **abstract data type** is a simple description of some data type, not in terms of how it works, but in terms of how you can **use** it. When we describe an abstract data type, we specify the basic building blocks (like in Scratch) that would be available when we implement the data type in actual code. These are called **operations**. The type is called abstract because no implementation details are enforced.
+An **abstract data type** is a simple description of some data type, not in terms of how it works, but in terms of how you can **use** it. When we describe an abstract data type, we only specify the basic building blocks (like in Scratch) that would be available when we implement the data type in actual code. These are called **operations**. The type is called "abstract" because no implementation details are enforced.
 
 ## Lists
 
@@ -61,6 +61,8 @@ This operation is commonly defined for collection data types.
 ## Building a stack
 
 Download the starter file: [`stack.c`](stack.c).
+
+> Note that the stack you're going to build will be a bit different from the one that Doug showed. In the video, there is only a single struct type called `stack`. The first element is always available and has a special meaning (no value will be stored in it). So essentially, he uses the same struct type for diferrent purposes. What we're going to do it make **two** data types: one for representing the stack as a whole, and one for each node that contains a data element.
 
 We're now going to build a Stack in C. Let's start with the `node` type that we're going to use as a building block. It's the same as the node that we used for linked lists (and that is to be expected, because a stack is a kind of list, right?). For this assignment, we will store single integers in the list. Have a look:
 
