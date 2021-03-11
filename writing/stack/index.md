@@ -32,6 +32,12 @@ As an aside, you might think from the definition "container that has some number
 
 ## Stacks
 
+<div markdown="1" class="extend">
+[![](short.jpg)](https://www.youtube.com/watch?v=hVsNqhEthOk)
+</div>
+
+[Open video on Youtube](https://www.youtube.com/watch?v=hVsNqhEthOk)
+
 Stacks are simplified lists that support two operations very efficiently:
 
 - **push**, which inserts one value into the stack
