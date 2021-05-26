@@ -49,7 +49,7 @@ Take your Programming Basics book and do **all exercises** from chapters 1, 2 an
 
 If you already have some experience with calculations in programming languages, be sure to do the last few exercises of every page and check if what you think is the answer is indeed correct! All answers are in the back of the book.
 
-After completing your practice exercises you will take an online test. We intend you to make it without errors. When you fail the online test (it has 13 questions), you can simply take it again. If you have any questions, just drop the question in the forums and discuss!
+After completing your practice exercises you will take an online test. We intend you to make it without errors. When you fail the online test, you can simply take it again. If you have any questions, just drop the question in the forums and discuss!
 
 > One particular point of the tests is that you can infer the **data type** of the outcome of an expression. Especially take care of writing `5.0` (with a decimal point) when the answer is a floating-point number, and writing `5` if the answer is an integer.
 
