@@ -87,3 +87,7 @@ Perform the procedure on the array `{5, 7, 2, 6, 3}` of length `n=5`. Show every
 Perform the procedure on the array `{5, 7, 2, 6, 3}` of length `n=5`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
 
 ![](sort.PNG)
+
+## Submit
+
+To submit, make photos of your solution tables and then create a PDF containing each of the photos (no other formats will be accepted, so if you need help creating a PDF, just ask!).
