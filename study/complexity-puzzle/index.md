@@ -6,11 +6,11 @@ Use your understanding of algorithmic complexity to analyze code and figure out 
 
 ## Though she be but little, she is fierce!
 
-Grand Maester Pycelle has noticed that the smaller people in Westoros are more likely to rise to power. Have you ever seen a Wun Wun the giant on a throne? Being quite the little data scientist, he would like to have a better overview of the body height of all the people of importance in Westeros. Specifically he would like to know the deviation of the height from the average and median of the population of Westeros. So, Pycelle sat down in front of his computer and wrote a program to compute all of this. He entered some data that he could find, however he noticed that when he started adding data, his algorithm was getting unacceptably slow. Maybe you can help him figure out why?
+Grand Maester Pycelle has noticed that the smaller people in Westeros are more likely to rise to power. Have you ever seen a Wun Wun the giant on a throne? Being quite the little data scientist, he would like to have a better overview of the body height of all the people of importance in Westeros. Specifically he would like to know the deviation of the height from the average and median of the population of Westeros. So, Pycelle sat down in front of his computer and wrote a program to compute all of this. He entered some data that he could find, however he noticed that when he started adding data, his algorithm was getting unacceptably slow. Maybe you can help him figure out why?
 
 ## Specification
 
-It is not your goal to optimice Pycelle's code, but to get a better understanding of why it is running slow. The code contains several functions `sort`, `median`, and `average`. The `main` function consists of three steps: 1) Compute the deviation from the average for all people of Westors, 2) compute the deviation from the median, and 3) print the results.
+It is not your goal to optimice Pycelle's code, but to get a better understanding of why it is running slow. The code contains several functions `sort`, `median`, and `average`. The `main` function consists of three steps: 1) Compute the deviation from the average for all people of Westeros, 2) compute the deviation from the median, and 3) print the results.
 
 1. Write down the worst-case running time (O(N)) for every part of the code:
 

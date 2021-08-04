@@ -18,9 +18,11 @@ First, download the answer template [here](https://github.com/minprog/cs50x/raw/
 
 ## Printing
 
-All the code fragments below have a variable `n`. Determine the worst-case running time (O(n)) complexity for these fragments. 
+All the code fragments below have a variable `n`. Determine the worst-case running time (O(n)) complexity for these fragments.
 
-> If you are not sure, you can always try to run the code yourself and see what happens if you change the variable `n`.
+Note that the code style might not exactly be as prescribed in the style guide and might even be a bit misleading. Read the code very carefully to determine the correct answer.
+
+If you are unsure about your answer, you can always try to run the code yourself and see what happens if you change the variable `n`.
 
 ### Q1.1
 
@@ -216,20 +218,22 @@ For the following code assume `swap` from Question 2.2.
 
 #### Code 
 
-	void sort(float a[],  int n)
-	{
-	    int swapped = true;
-	    for(int i = 0; i < n - 1 && swapped == true; i++)
-	    {
-	        swapped = false;
-	        for(int j = 0; j < n - i - 1; j++)
-	            if(a[j] > a[j+1])
-	            {
-	                swap(a + j, a + j + 1);
-	                swapped = true;
-	            }
-	    }
-	}
+    void sort(float a[],  int n)
+    {
+        int swapped = true;
+        for(int i = 0; i < n - 1 && swapped == true; i++)
+        {
+            swapped = false;
+            for(int j = 0; j < n - i - 1; j++)
+            {
+                if(a[j] > a[j+1])
+                {
+                    swap(a + j, a + j + 1);
+                    swapped = true;
+                }
+            }
+        }
+    }
 
 ### Q2.4
 
@@ -242,7 +246,7 @@ For the following piece of code assume `sort` from Question 2.3.
 	{
 	    if(n <= 0) return 0;
 
-	    sort(a,n);
+	    sort(a, n);
 	    return (a[(n-1)/2] + a[n/2])/2;
 	}
 
@@ -266,4 +270,4 @@ Log into your CS50 IDE and upload your `answers.txt`. Then simply run:
 
 	check50 -l minprog/cs50x/2020/bigo
 
-check50 will check the correctness of your answers. But be sure to fill in your explanations as well, which `check50` won't check here!
+`check50` will check the correctness of your answers, but also be sure to provide your reasoning.

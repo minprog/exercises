@@ -5,7 +5,7 @@
 
 ## Getting started
 
-Create a new directory this assignment:
+Create a new directory for this assignment:
 
     mkdir -p ~/exercises/strings
 
@@ -16,7 +16,7 @@ Now, step into this directory:
 
 ## Vertical
 
-Write a program that takes a string from the user and prints each character of the string on a new line. As per the output below (where the underlined text is the user input):
+Write a program that takes a string from the user and prints each character of the string on a new line. As per the output below:
 
     $ ./vertical
     Type something: horizontal
@@ -41,7 +41,7 @@ Write a program that takes a string from the user and prints each character of t
 
 ## Skip
 
-Write a program that takes a string from the user and prints each even character of the string. As per the output below (where the underlined text is the user input):
+Write a program that takes a string from the user and prints each even character of the string. As per the output below:
 
 
     $ ./skip
@@ -59,7 +59,7 @@ Write a program that takes a string from the user and prints each even character
 
 ## Eek
 
-Write a program that takes a string from the user and tells you how many e's that string contains.. As per the output below (where the underlined text is the user input):
+Write a program that takes a string from the user and tells you how many e's that string contains. As per the output below:
 
 
     $ ./eek
@@ -74,13 +74,12 @@ Write a program that takes a string from the user and tells you how many e's tha
 - Then, count (with the help of a loop and an if statement) the amount of e's in the string.
 - Compile the program with the command `make eek`.
 - Make sure your program can handle both upper and lower case ‘e'.
-- Bonus: I always dislike it when a computer program says something ungrammatical like `The text` `"``one``"` `contains 1 e``'``s.`. Make sure it handles the singular case correctly by saying `The text` `"``one``"` `contains 1 e.`, instead.
+- Bonus: I always dislike it when a computer program says something ungrammatical like `The text "one" contains 1 e's.`. Make sure it handles the singular case correctly by saying `The text "one" contains 1 e.`, instead.
 
 
 ## emordnilaPalindrome (extra)
 
-Write a program that takes a string from the user and determines if it is a palindrome (a word that is the same spelled backwards).
-
+Write a program that takes a string from the user and determines if it is a palindrome (a word that is the same spelled backwards). Spaces must be ignored.
 
     $ ./palindrome
     Type something: Never odd or even
@@ -116,7 +115,7 @@ Create a program that turns a string into the alternating case of Spongebob.
 
 ## Taboo (extra)
 
-Using the word 'cat' is taboo. Write a program that replaces the word 'cat' from the user input to 'dog'.
+Using the word 'cat' is taboo. Write a program that replaces the word 'cat' from the user input to 'dog'. Even better, 'Cat' becomes 'Dog', with casing left intact!
 
     $ ./taboo
     Type something: The Cheshire Cat is the cat of the Duchess.

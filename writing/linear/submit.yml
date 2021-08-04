@@ -1,5 +1,4 @@
 name: linear
-form: true
 files:
   required:
     - find-linear.c

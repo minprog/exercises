@@ -29,7 +29,7 @@ The following pseudocode describes the selection sort algorithm.
         print(array)
         i = i + 1
 
-Perform the procedure on the array `{5, 7, 2, 6, 3}` of length `n=5`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
+Perform the procedure on the array `{5, 1, 2, 8, 6}` of length `n=5`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
 
 ![](sort.PNG)
 
@@ -53,7 +53,7 @@ Consider the following pseudocode for bubble sort.
         print(array)
     while counter > 0
 
-Perform the procedure on the array `{5, 7, 2, 6, 3}` of length `n=5`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
+Perform the procedure on the array `{5, 1, 2, 8, 6}` of length `n=5`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
 
 ![](sort.PNG)
 
@@ -74,7 +74,7 @@ Consider the following pseudocode for insertion sort.
         print(array)
         i = i + 1
 
-Perform the procedure on the array `{5, 7, 2, 6, 3}` of length `n=5`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
+Perform the procedure on the array `{5, 1, 2, 8, 6}` of length `n=5`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
 
 ![](sort.PNG)
 
@@ -84,7 +84,7 @@ Perform the procedure on the array `{5, 7, 2, 6, 3}` of length `n=5`. Show every
 
 ![embed](https://www.youtube.com/embed/yF3hMKmCk1A)
 
-Perform the procedure on the array `{5, 7, 2, 6, 3}` of length `n=5`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
+Perform the procedure on the array `{5, 1, 2, 8, 6}` of length `n=5`. Show every swap on an individual line and show which elements you're swapping by underlining them. Also show which part of the array is sorted on every line by drawing a rectangle around the sorted part of the array.  
 
 ![](sort.PNG)
 

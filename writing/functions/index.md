@@ -2,13 +2,11 @@
 
 > Deze opdracht is niet bedoeld voor samenwerken, maar je hoeft 'm ook niet helemaal alleen te doen. Het doel is ervaring opdoen met technieken en daarom moet je alles zelf oefenen. Maar schroom niet hulp te vragen, en als het nodig is kan iemand het even voordoen. Als je naderhand maar zelf alle stappen doorlopen hebt.
 
-Get some practice with writing functions. Before you start coding you might want to have look at this video:
-
 ## Getting started
 
-Create a new file called `functions.c` in the directory `practice`
+Create a new file called `functions.c` in the directory `exercises`.
 
-Copy the following code into the file
+Copy the following code into the file:
 
 	#include <stdio.h>
 
@@ -25,7 +23,7 @@ Copy the following code into the file
 
 	int times_two(int a)
 	{
-	    return a*2;
+	    return a * 2;
 	}
 
 	void print_int(int a)
@@ -72,7 +70,7 @@ Test your function.
 
 ## Exercise 5
 
-Create a function called `print_array` that takes two paremeters: a *float array* and an *integer* (denoting the length of the array). The function should print the entire array of floats to a precision of two decimals. E.g.,
+Create a function called `print_array` that takes two parameters: a *float array* and an *integer* (denoting the length of the array). The function should print the entire array of floats to a precision of two decimals. E.g.,
 
 	float a[] = {1.555, 3, 1.645, 178};
 	print_array(a, 4);

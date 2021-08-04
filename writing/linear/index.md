@@ -47,7 +47,7 @@ The program `./find-linear` expects one command line argument: the needle. Once 
 For this assignment you don't have to worry about the user input. This has already been implemented for you. You will have two tasks to complete:
 
 1. Implement the function `print_array`. This function will take an integer array as input and will have to print its contents.
-2. Implement the function `search`. With this function you will implement linear search. The input are an integer array and an integer value as input and will return `true` if and only if, the value is found in the array.
+2. Implement the function `search`. With this function you will implement linear search. The function takes an integer array and an integer value as input and will return `true` if and only if the value is found in the array.
 
 
 ## Walkthrough
@@ -93,7 +93,7 @@ But before getting to that, let's briefly step through the existing code in orde
 
 ### Declarations
 
-Near the top of the file, right after the `include`‘s you see the declaration of the functions you will have to implement. Here we just tell the compiler that these function will be implemented later in the file.
+Near the top of the file, right after the `include`s you see the declaration of the functions you will have to implement. Here we just tell the compiler that these functions will be implemented later in the file.
 
 
     bool search(int value, int values[], int size);
@@ -175,12 +175,10 @@ As soon as you're done, submit your implementation below!
 
 1. Toward CS50 IDE's top-left corner, within its "file browser" (not within a terminal window), control-click or right-click your `find-linear.c` file (that's within your `~/problems/linear` directory) and then select **Download**. You should find that your browser has downloaded `find-linear.c`.
 
-2. Do the same for your other exercises.
-
 2. Make sure you are signed in to **this** website!
 
 3. Type the names of students that you've worked with on this problem: <input name="form[samen]" type="text" required>
 
-4. In the form below, choose the files that you just downloaded.
+4. In the form below, choose the file that you just downloaded.
 
 5. Press "Submit for grading". Presto!
