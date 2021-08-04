@@ -9,7 +9,7 @@ Functions are often use to solve partial programming problems, which can then be
 [![](still-functions.jpg)](https://www.youtube.com/watch?v=n1glFqt3g38)
 </div>
 
-[Open Loops on Youtube](https://www.youtube.com/watch?v=n1glFqt3g38)
+[Open Functions on Youtube](https://www.youtube.com/watch?v=n1glFqt3g38)
 
 
 ## Practice exercises
@@ -20,9 +20,6 @@ If you already have some experience with calculations in programming languages, 
 
 After completing your practice exercises you will take an online test. We intend you to make it without errors. When you fail the online test you can simply take it again. If you have any questions, just drop the question in the forums and discuss!
 
+When done with the test, take a screenshot of the results screen. You must score 100% to pass this exercise.
+
 [Take test D now](https://practice.mprog.nl/entry/prog1){:.btn.btn-secondary}
-
-
-## How to submit
-
-When done with the test, take a screenshot of the results screen. You can attach it below.

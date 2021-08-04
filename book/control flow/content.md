@@ -42,9 +42,6 @@ After completing your practice exercises you will take an online test. We intend
 
 > One particular point of the tests is that you can infer the **data type** of the outcome of an expression. Especially take care of writing `5.0` (with a decimal point) when the answer is a floating-point number, and writing `5` if the answer is an integer.
 
+When done with the test, take a screenshot of the results screen. You must score 100% to pass this exercise.
+
 [Take test B now](https://practice.mprog.nl/entry/prog1){:.btn.btn-secondary}
-
-
-## How to submit
-
-When done with the test, take a screenshot of the results screen. You can attach it below; it will be uploaded together with your answers to the questions.
