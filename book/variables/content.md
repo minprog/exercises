@@ -25,7 +25,7 @@ Why would a variable of the `bool` data type only take 1 bit of storage in a com
 
 Describe the difference between *initializing* a variable and *assigning a value* to a variable.
 
-<textarea name="form[precision_problem]" rows="4" required></textarea>
+<textarea name="form[intializing_v_assigning]" rows="4" required></textarea>
 
 
 ## Operators
@@ -40,7 +40,7 @@ C also has a lot of operators that allow you to combine values into calculations
 
 Discuss the difference between the equality operator and the assignment operator, including what symbols are to be used for each in C.
 
-<textarea name="form[equal_assign]" rows="4" required></textarea>
+<textarea name="form[equal_v_assign]" rows="4" required></textarea>
 
 
 ## Practice exercises
