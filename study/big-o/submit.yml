@@ -1,4 +1,4 @@
-name: bigo
+name: big_o
 files:
     required:
         - answers.txt
