@@ -47,6 +47,8 @@ Write a program that prints the following information:
 
 We're going to use **structs** to accomplish this!
 
+> Note, for this assignment you do **not** need to use the function `strcpy` as in the video above. Instead you can assign strings directly with the following syntax: `musician.name = "Joe"`
+
 ## Just John
 
 The first goal is to create and print a "musician" struct variable for John.
