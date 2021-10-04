@@ -20,7 +20,14 @@ Execute in a terminal window
 
 ## Linked lists
 
-You are going to build your own linked list. For some additional reading, you might also want to have a look at <https://study.cs50.net/linked_lists>.
+You are going to build your own linked list.
+
+<!--
+
+OFFLINE
+For some additional reading, you might also want to have a look at <https://study.cs50.net/linked_lists>.
+
+-->
 
 Jump into `linked.c`. We have provided you with a `print_list` function which should print your linked list. As you compile and run this program, you see that the function only prints the brackets `[ ]`, which may seem correct since we haven't inserted anything. Yet, if you look at the code you may notice that the crucial part of `print_list` is missing.
 
