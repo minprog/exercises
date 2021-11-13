@@ -77,23 +77,7 @@ Write a program that takes a string from the user and tells you how many e's tha
 - Bonus: I always dislike it when a computer program says something ungrammatical like `The text "one" contains 1 e's.`. Make sure it handles the singular case correctly by saying `The text "one" contains 1 e.`, instead.
 
 
-## emordnilaPalindrome (extra)
-
-Write a program that takes a string from the user and determines if it is a palindrome (a word that is the same spelled backwards). Spaces must be ignored.
-
-    $ ./palindrome
-    Type something: Never odd or even
-    The text "Never odd or even" is a palindrome
-
-
-### Specification
-
-- Create a file called `palindrome.c` in your `~/exercises/strings` directory.
-- Compile the program with the command `make palindrome`.
-- Make sure your program is not case sensitive.
-
-
-## tHe CaSe Of BoB (extra)
+## tHe CaSe Of BoB
 
 SpOnGeBoB tAlKs FuNnY, lIkE tHiS:
 
@@ -113,7 +97,23 @@ Create a program that turns a string into the alternating case of Spongebob.
 - Compile the program with the command `make bob`.
 
 
-## Taboo (extra)
+## emordnilaPalindrome (optional)
+
+Write a program that takes a string from the user and determines if it is a palindrome (a word that is the same spelled backwards). Spaces must be ignored.
+
+    $ ./palindrome
+    Type something: Never odd or even
+    The text "Never odd or even" is a palindrome
+
+
+### Specification
+
+- Create a file called `palindrome.c` in your `~/exercises/strings` directory.
+- Compile the program with the command `make palindrome`.
+- Make sure your program is not case sensitive.
+
+
+## Taboo (optional)
 
 Using the word 'cat' is taboo. Write a program that replaces the word 'cat' from the user input to 'dog'. Even better, 'Cat' becomes 'Dog', with casing left intact!
 

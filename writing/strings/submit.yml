@@ -5,7 +5,7 @@ files:
     - vertical.c
     - skip.c
     - eek.c
+    - bob.c
   optional:
     - palindrome.c
-    - bob.c
     - taboo.c
