@@ -42,13 +42,13 @@ Remember that defining a function consists of two parts:
 
 Take a look at how this is done for `times_two` and `print_int`.
 
-Test the function by changing the line `int y = times_two(x);` into `int y = half(x);`.
+**Test** the function by changing the line `int y = times_two(x);` into `int y = half(x);`.
 
 ## Exercise 2
 
-Create a function called `print_float` that takes a float as input and prints the value with a precision of two decimals.
+Create a function called `print_float` that takes a float as input and prints the value with a precision of two decimals. (The [manual](https://manual.cs50.io/3/printf) for `printf` explains about precision.)
 
-Test the function by calling `print_float(2.7444)` from the `main` and verify that that it prints:
+**Test** the function by calling `print_float(2.7444)` from `main` and verify that that it prints:
 
 	Value = 2.74
 
@@ -60,13 +60,13 @@ What should the protoype look like? What are the types of the parameters? What i
 
 Think of a use case. E.g., the average of 4 and 7 is 5.5. Does your function do this correctly?
 
-Test your result by calling the function `avarage` from the `main` and print the result using your `print_float`.
+**Test** your result by calling the function `avarage` from `main` and print the result using your `print_float`.
 
 ## Exercise 4
 
 Create a function called `max` that takes two *floats* and returns the maximum value as a *float*.
 
-Test your function.
+**Test** your function by adding code to `main`.
 
 ## Exercise 5
 
@@ -79,7 +79,7 @@ should print something like:
 
 	1.55, 3.00, 1.64, 178.00
 
-Test if your function works, by creating an array in `main` and call the function `print_array` on that array.
+**Test** your function, by creating an array in `main` and call the function `print_array` on that array.
 
 ## Exercise 6
 
@@ -91,4 +91,4 @@ Create a function that finds the maximum value in a *float* array. Before you im
 
 Think of a couple of good testcases. What is the max of `{1.555, 3, 1.645, 178}`? What is the max of an array with only one element? What is the max of an empty array?
 
-Test your function.
+**Test** your function by adding code to `main`.
