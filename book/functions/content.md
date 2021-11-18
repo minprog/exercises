@@ -1,5 +1,7 @@
 # Exercises: Functions
 
+Functions are often use to solve partial programming problems, which can then be connected together to solve a larger problem.
+
 > **Individuele opdracht.**
 >
 > Samenwerken bij deze opdracht is niet toegestaan; het is prima om medestudenten en anderen om hulp te vragen, als het er maar niet op neerkomt dat iemand anders een deel van het werk voor je doet. Voorbeelden van "redelijke" en "onredelijke" manieren van samenwerken vind je in de studiewijzer.
@@ -11,8 +13,6 @@
 > - hoe parameters zich gedragen.
 >
 > Na maken van de opdracht kun je extra bestuderen hoe je bovenstaande dingen hebt aangepakt.
-
-Functions are often use to solve partial programming problems, which can then be connected together to solve a larger problem.
 
 
 ## Video
