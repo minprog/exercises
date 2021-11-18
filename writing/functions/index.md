@@ -1,6 +1,17 @@
 # Functions
 
+> **Zelfstandig door te werken opdracht.**
+>
 > Deze opdracht is niet bedoeld voor samenwerken, maar je hoeft 'm ook niet helemaal alleen te doen. Het doel is ervaring opdoen met technieken en daarom moet je alles zelf oefenen. Maar schroom niet hulp te vragen, en als het nodig is kan iemand het even voordoen. Als je naderhand maar zelf alle stappen doorlopen hebt.
+>
+> **Je gebruikt deze opdracht om dit te leren:**
+>
+> - Hoe je nieuwe functies definieert en een prototype toevoegt,
+> - hoe je parameters gebruikt, en
+> - hoe je return gebruikt.
+>
+> Na maken van de opdracht kun je extra bestuderen hoe je bovenstaande dingen hebt aangepakt.
+
 
 ## Getting started
 
