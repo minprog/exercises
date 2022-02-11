@@ -3,17 +3,6 @@
 > Deze opdracht is niet bedoeld voor samenwerken, maar je hoeft 'm ook niet helemaal alleen te doen. Het doel is ervaring opdoen met technieken en daarom moet je alles **zelf** oefenen. Maar schroom niet hulp te vragen, en als het nodig is kan iemand het even voordoen. Als je naderhand maar zelf alle stappen doorlopen hebt.
 
 
-## Getting started
-
-Create a new directory for this assignment:
-
-    mkdir -p ~/exercises/strings
-
-Now, step into this directory:
-
-    cd ~/exercises/strings
-
-
 ## Vertical
 
 Write a program that takes a string from the user and prints each character of the string on a new line. As per the output below:
@@ -33,7 +22,7 @@ Write a program that takes a string from the user and prints each character of t
 
 ### Specification
 
-- Create in a file called `vertical.c` in your `~/exercises/strings` directory.
+- Create in a file called `vertical.c`.
 - Ask the user for a text input.
 - Then, print (with the help of `printf` and a loop) the vertical text.
 - Compile the file with the command `make vertical`.
@@ -51,7 +40,7 @@ Write a program that takes a string from the user and prints each even character
 
 ### Specification
 
-- Create in a file called `skip.c` in your `~/exercises/strings` directory.
+- Create in a file called `skip.c`.
 - Ask the user for a text input.
 - Then, print (with the help of `printf` and a loop) only the even characters of this string.
 - Compile the file with the command `make skip`.
@@ -69,7 +58,7 @@ Write a program that takes a string from the user and tells you how many e's tha
 
 ### Specification
 
-- Create a file called `eek.c` in your `~/exercises/strings` directory.
+- Create a file called `eek.c`.
 - Ask the user for a text input.
 - Then, count (with the help of a loop and an if statement) the amount of e's in the string.
 - Compile the program with the command `make eek`.
@@ -92,7 +81,7 @@ Create a program that turns a string into the alternating case of Spongebob.
 
 ### Specification
 
-- Create a file called `bob.c` in your `~/exercises/strings` directory.
+- Create a file called `bob.c`.
 - Create a program that asks for user input and changes it into alternating case. Start with lower case, and make sure to skip spaces and punctuation.
 - Compile the program with the command `make bob`.
 
@@ -108,7 +97,7 @@ Write a program that takes a string from the user and determines if it is a pali
 
 ### Specification
 
-- Create a file called `palindrome.c` in your `~/exercises/strings` directory.
+- Create a file called `palindrome.c`.
 - Compile the program with the command `make palindrome`.
 - Make sure your program is not case sensitive.
 
@@ -131,7 +120,7 @@ If you want to make this exercise even more challenging, write the program in su
 
 ### Specification
 
-- Create a file called `taboo.c` in your `~/exercises/strings` directory.
+- Create a file called `taboo.c`.
 - Write a program that takes a string from the user and replaces all instances of 'cat' for 'dog'.
 
 
@@ -139,16 +128,8 @@ If you want to make this exercise even more challenging, write the program in su
 
 As soon as you're done, submit your implementations below! 
 
-1. Toward CS50 IDE's top-left corner, within its "file browser" (not within a terminal window), control-click or right-click your `vertical.c` file (that's within your `~/exercises/strings` directory) and then select **Download**. You should find that your browser has downloaded `vertical.c`.
-
-2. Do the same for your other exercises.
-
-2. Make sure you are signed in to **this** website!
-
 3. Type the names of students that you've worked with on this problem: <input name="form[samen]" type="text" required>
 
 4. In the form below, choose the files that you just downloaded.
 
 5. Press "Submit for grading". Presto!
-
-Your program will then again be checked using `check50` and the result will be recorded on this website. Should the check fail unexpectedly, be sure to try if `check50` is still satisfied when you run it in your IDE's Terminal.

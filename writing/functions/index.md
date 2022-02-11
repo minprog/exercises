@@ -15,7 +15,7 @@
 
 ## Getting started
 
-Create a new file called `functions.c` in the directory `exercises`.
+Create a new file called `functions.c`.
 
 Copy the following code into the file:
 
