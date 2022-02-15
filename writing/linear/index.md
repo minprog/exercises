@@ -7,9 +7,9 @@ Write a program that can find a needle in a haystack using linear search. Well, 
 
 ## Getting started
 
-    $ mkdir ~/problems/linear
-    $ cd ~/problems/linear
-    $ wget https://github.com/minprog/exercises/raw/main/writing/linear/find-linear.c
+Make sure that you have changed into the Programming directory using `cd`. Then, run this command to retrieve a template for this exercise:
+
+    $ curl -O https://github.com/minprog/exercises/raw/main/writing/linear/find-linear.c
 
 
 ## Specification
@@ -171,14 +171,4 @@ Make sure those cases are handled correctly!
 
 ## How to submit
 
-As soon as you're done, submit your implementation below! 
-
-1. Toward CS50 IDE's top-left corner, within its "file browser" (not within a terminal window), control-click or right-click your `find-linear.c` file (that's within your `~/problems/linear` directory) and then select **Download**. You should find that your browser has downloaded `find-linear.c`.
-
-2. Make sure you are signed in to **this** website!
-
-3. Type the names of students that you've worked with on this problem: <input name="form[samen]" type="text" required>
-
-4. In the form below, choose the file that you just downloaded.
-
-5. Press "Submit for grading". Presto!
+Type the names of students that you've worked with on this problem: <input name="form[samen]" type="text" required>
