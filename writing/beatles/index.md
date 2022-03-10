@@ -73,7 +73,7 @@ Set the `name` field of `john` to ```"John"```, the `instrument` field to ```"gu
 
 ### Step 3
 
-Now it's time to make a print function for musicians. Create a new function, `void print_musician(struct musician m)`. (Make sure to also add the **prototype** for this function above the main function, but below the struct `beatles.c`.)
+Now it's time to make a print function for musicians. Create a new function, `void print_musician(struct musician m)`. (Make sure to also add the **prototype** for this function above the main function, but below `struct musician`.)
 Implement this function in such a way that if we call it, the output will something like this:
 
     Name:       John
