@@ -69,11 +69,11 @@ Create one musician: declare a variable with the name `john` of type `struct mus
 
 ### Step 2
 
-Set the `name` field of `john` to `"``John``"`, the `instrument` field to `"``guitar, vocals``"`, and the `year_born` field to `1940`.
+Set the `name` field of `john` to ```"John"```, the `instrument` field to ```"guitar, vocals"```, and the `year_born` field to `1940`.
 
 ### Step 3
 
-Now it's time to make a print function for musicians. Create a new function, `void print_musician(struct musician m)`. (Make sure to also add the **prototype** for this function atop the `beatles.c`.)
+Now it's time to make a print function for musicians. Create a new function, `void print_musician(struct musician m)`. (Make sure to also add the **prototype** for this function above the main function, but below the struct `beatles.c`.)
 Implement this function in such a way that if we call it, the output will something like this:
 
     Name:       John
