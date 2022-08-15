@@ -47,7 +47,7 @@ These are the core operations for a stack. Why these? Think of a stack of plates
 
 This analogy is very appropriate, but it is not the *reason* that stacks exist. They exist because the idea of a stack has proven to be very useful in many algorithms (and unfortunately there's also a common error associated with this structure: the 'stack overflow', which happens if a stack has limited space and it gets full).
 
-Back to the stack itself. Although push and pop are essential, stacks often support a few more operations:
+Back to the stack itself. Although push and pop are essential, programs with stacks often support a few more operations:
 
 - **create**, which creates a new stack **instance**, separate from any other instances
 - **destroy**, which completely removes all items in the stack, and the stack itself
@@ -62,7 +62,7 @@ This operation is commonly defined for collection data types.
 
 Download the starter file: [`stack.c`](stack.c).
 
-> Note that the stack you're going to build will be a bit different from the one that Doug showed. In the video, there is only a single struct type called `stack`. The first element is always available and has a special meaning (no value will be stored in it). So essentially, he uses the same struct type for diferrent purposes. What we're going to do it make **two** data types: one for representing the stack as a whole, and one for each node that contains a data element.
+> Note that the stack you're going to build will be a bit different from the one that Doug showed. In the video, there is only a single struct type called `stack`, and the first node of the stack is referenced through a pointer named `list`. We're going to make **two** data types: one for representing the stack as a whole, containing a reference to the top of the stack and its size, and one for each node that contains a data element.
 
 We're now going to build a Stack in C. Let's start with the `node` type that we're going to use as a building block. It's the same as the node that we used for linked lists (and that is to be expected, because a stack is a kind of list, right?). For this assignment, we will store single integers in the list. Have a look:
 
@@ -86,11 +86,11 @@ Notice two things:
 
 - The root node type is **not** self-referential like the number node type is. It just exists to store a pointer to the first element in the stack (or none, if it is empty).
 
-- We add a field called `size`, which will store the number of values that is in the stack at any time. This will save us counting each value separately when the size is requested. Keeping track of such a value separately is called "memoization".
+- We add a field named `size`, which will store the number of values that is in the stack at any time. This will save us from counting each value separately when the size is requested. Keeping track of such a value separately is called "memoization".
 
 You can now create a "stack" by allocating memory for the root node:
 
-    struct stack* stack = malloc(sizeof(struct stack));
+    stack* stack = malloc(sizeof(stack));
     stack->root = NULL;
     stack->size = 0;
 
@@ -101,11 +101,11 @@ When the `root` and `size` are set to a null value, the stack is completely vali
 
 Implement the following functions:
 
-    struct stack* create      ();
-             void push        (struct stack* stack, int number);
-              int pop         (struct stack* stack);
-             void destroy     (struct stack* stack);
-             void print_stack (struct stack* stack);
+    stack* create      ();
+      void push        (stack* stack, int number);
+       int pop         (stack* stack);
+      void destroy     (stack* stack);
+      void print_stack (stack* stack);
 
 Observe the following details:
 
@@ -124,11 +124,11 @@ Make sure you understand why these return types and parameters are as they are.
 
 - `push()` should take a stack and an integer value, and insert the number into the stack. Because each node points toward the next node, your code will be most efficient when you insert a new value at the front!
 
-- `pop()` should take a stack, remove the front-most value from it, and return the integer value (not the node!). Take care to `free` the node before returning.
+- `pop()` should take a stack, remove the last-inserted value from it, and return the integer value (not the node!). Take care to `free` the node before returning.
 
 - `destroy()` should take a stack, `free` any remaining values in it, and also `free` the stack itself.
 
-- `print_stack()` should take a stack and print the values in it. It will be quite similar to the function `print_list()` that you wrote in an earlier exercises! But, remember that the stack itself is *not* the same thing as the first *element* of the stack (earlier, the "list" was simply a pointer to the first element of the list).
+- `print_stack()` should take a stack and print the values in it. It will be quite similar to the function `print_list()` that you wrote in an earlier exercises! But, remember that the stack itself is *not* the same thing as the first *element* of the stack (earlier, the "list" was simply a pointer to the first element of the list). Your function should show the stack from bottom to top on one line, meaning that the value that was added last, should be printed as the rightmost value.
 
 
 ## Testing
@@ -138,34 +138,43 @@ The distro contains the following `main()` function, which tests some of the fun
     int main (void)
     {
         // source array for testing
-        int array[] = { 4, 5, 6 };
-        int n = sizeof(array)/sizeof(int);
+        int array[] = {4, 5, 6};
+        int n = sizeof(array) / sizeof(int);
 
-        // create a blank stack
-        struct stack *stack = create();
+        // create an empty stack
+        stack *stack = create();
 
         // fill stack from source array
         for (int i = 0; i < n; i++) {
             push(stack, array[i]);
         }
 
+        // print the stack as [4, 5, 6] (rightmost element is the last added)
         print_stack(stack);
 
-        // remove one element (should be the one that's been added most recently)
+        // remove one element (should be the one that's been added most recently: 6)
         int num = pop(stack);
+        printf("Removed with pop: %d\n", num);
 
-        printf("removed with pop: %d\n", num);
-        printf("size is now: %d\n", stack->size);
+        // now the stack should be [4, 5]
+        print_stack(stack);
 
         destroy(stack);
     }
+
+Which should output:
+
+    Stack is now: [4, 5, 6]
+    Stack size is now: 3
+    removed with pop: 6
+    Stack is now: [4, 5]
+    Stack size is now: 2
 
 Use the testing code in two ways:
 
 1. Implement the function in such a way that this test code executes correctly.
 
-2. Check using valgrind that your program doesn't leave a single trace in memory when finished.
-
+2. Check using `valgrind` that your program doesn't leave a single trace in memory when finished.
 
 ## Submit
 
