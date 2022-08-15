@@ -5,6 +5,8 @@
 > Had je al programmeerervaring? Ook dan ken je waarschijnlijk een aantal van de details niet. Zorg dan dat je extra precies oefent om zeker te zijn dat je geen basiskennis overslaat.
 
 
+<!-- 
+
 ## Data types
 
 Watch the following video by Doug LLoyd to get introduced to C's basic data types (including a preview of more advanced types).
@@ -44,6 +46,8 @@ Discuss the difference between the equality operator and the assignment operator
 
 
 ## Practice exercises
+
+-->
 
 Take your Programming Basics book and do **all exercises** from chapters 1, 2 and 3. It's important to do the exercises by hand (on paper), without using a calculator. When done like that, you'll develop a little bit of intuition about the basic calculations that are part of many computer programs. You will need it for the next module.
 

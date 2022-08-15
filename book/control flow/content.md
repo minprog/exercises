@@ -2,6 +2,8 @@
 
 Watch the videos below for an introduction to conditionals and loops. These are the two most important algorithmic concepts you'll encounter, and both will be part of all programs that you will be writing (and reading!).
 
+<!-- 
+
 ## Conditionals
 
 <div markdown="1" class="extend">
@@ -33,6 +35,8 @@ Have you used a for-loop in the programs that you previously wrote? Discuss if t
 
 
 ## Practice exercises
+
+-->
 
 Take your Programming Basics book and do **all exercises** from chapters 4, 5 and 6. It's important to do the exercises by hand (on paper), without using a calculator. When done like that, you'll develop a little bit of intuition about the basic calculations that are part of many computer programs. You will need it for the next module.
 
