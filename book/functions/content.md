@@ -1,6 +1,6 @@
-# Exercises: Functions
+# Basisboek: functies
 
-Functions are often use to solve partial programming problems, which can then be connected together to solve a larger problem.
+<!-- Functions are often use to solve partial programming problems, which can then be connected together to solve a larger problem.
 
 > **Individuele opdracht.**
 >
@@ -12,26 +12,27 @@ Functions are often use to solve partial programming problems, which can then be
 > - hoe variabelen zich gedragen als ze buiten of binnen functies zijn gedefinieerd, en
 > - hoe parameters zich gedragen.
 >
-> Na maken van de opdracht kun je extra bestuderen hoe je bovenstaande dingen hebt aangepakt.
+> Na maken van de opdracht kun je extra bestuderen hoe je bovenstaande dingen hebt aangepakt. -->
 
 
-## Video
+<!--## Video
 
 <div markdown="1" class="extend">
 [![](still-functions.jpg)](https://www.youtube.com/watch?v=n1glFqt3g38)
 </div>
 
 [Open Functions on Youtube](https://www.youtube.com/watch?v=n1glFqt3g38)
+ -->
 
 
-## Practice exercises
+Neem je Basisboek Programmeren en doe alle oefeningen van hoofdstukken 10 en 11. Het is belangrijk om de oefeningen "met de hand" te doen, dus op papier. Zo ontwikkel je een beetje intuitie over de berekeningen en operaties die onderdeel zijn van alle computerprogramma's.
 
-Take your Programming Basics book and do **all exercises** from chapters 10 and 11. It's important to do the exercises by hand (on paper), without using a calculator. When done like that, you'll develop a little bit of intuition about the basic calculations that are part of many computer programs. You will need it for the next module.
+Als je al ervaring hebt met een programmeertaal dan is het aan te raden om alsnog even de laatste paar sommen van elke pagina te doen om te dubbelchecken dat je begrijpt wat de bedoeling is (onze bedoeling kan anders zijn dan jij denkt).
 
-If you already have some experience with calculations in programming languages, be sure to do the last few exercises of every page and check if what you think is the answer is indeed correct! All answers are in the back of the book.
+Antwoorden staan achterin het boekje dus je kunt altijd even controleren of het goed gaat.
 
-After completing your practice exercises you will take an online test. We intend you to make it without errors. When you fail the online test you can simply take it again. If you have any questions, just drop the question in the forums and discuss!
+Na het oefenen kun je de online test doen. De bedoeling is dat je zo'n testje geheel foutloos kunt doen. Mocht je toch een fout maken dan begin je opnieuw. En als je nou vragen hebt, stel ze gewoon aan de assistenten!
 
-When done with the test, take a screenshot of the results screen. You must score 100% to pass this exercise.
+Als je klaar bent, maak dan een screenshot (geen foto...) van je positieve resultaat en upload deze hieronder.
 
-[Take test D now](https://practice.mprog.nl/entry/prog1){:.btn.btn-secondary}
+[Doe test D](https://practice.mprog.nl/entry/prog1){:.btn.btn-secondary}

@@ -1,9 +1,9 @@
-# Exercises: Variables and expressions
+# Basisboek: variabelen en expressies
 
-> Dit is je eerste opdracht om te oefenen met programmeerconcepten. De bedoeling is dat je hierdoor de kleine details goed leert begrijpen, zodat je je daarna meer kan bezighouden met de "big picture". Bij het oefenen gebruik je video's waarin de concepten worden uitgelegd en het [Basisboek Programmeren](https://www.stgm.nl/basics/). Eerst beantwoord je zo goed mogelijk een paar vragen over de video's en dan ga je oefenen in het boek. De bedoeling is dat je na het oefenen de online test bijna foutloos kunt doen.
+<!-- > Dit is je eerste opdracht om te oefenen met programmeerconcepten. De bedoeling is dat je hierdoor de kleine details goed leert begrijpen, zodat je je daarna meer kan bezighouden met de "big picture". Bij het oefenen gebruik je video's waarin de concepten worden uitgelegd en het [Basisboek Programmeren](https://www.stgm.nl/basics/). Eerst beantwoord je zo goed mogelijk een paar vragen over de video's en dan ga je oefenen in het boek. De bedoeling is dat je na het oefenen de online test bijna foutloos kunt doen.
 >
 > Had je al programmeerervaring? Ook dan ken je waarschijnlijk een aantal van de details niet. Zorg dan dat je extra precies oefent om zeker te zijn dat je geen basiskennis overslaat.
-
+ -->
 
 <!-- 
 
@@ -49,14 +49,15 @@ Discuss the difference between the equality operator and the assignment operator
 
 -->
 
-Take your Programming Basics book and do **all exercises** from chapters 1, 2 and 3. It's important to do the exercises by hand (on paper), without using a calculator. When done like that, you'll develop a little bit of intuition about the basic calculations that are part of many computer programs. You will need it for the next module.
 
-If you already have some experience with calculations in programming languages, be sure to do the last few exercises of every page and check if what you think is the answer is indeed correct! All answers are in the back of the book.
+Neem je Basisboek Programmeren en doe alle oefeningen van hoofdstukken 1, 2 en 3. Het is belangrijk om de oefeningen "met de hand" te doen, dus op papier. Zo ontwikkel je een beetje intuitie over de berekeningen en operaties die onderdeel zijn van alle computerprogramma's.
 
-After completing your practice exercises you will take an online test. We intend you to make it without errors. When you fail the online test, you can simply take it again. If you have any questions, just drop the question in the forums and discuss!
+Als je al ervaring hebt met een programmeertaal dan is het aan te raden om alsnog even de laatste paar sommen van elke pagina te doen om te dubbelchecken dat je begrijpt wat de bedoeling is (onze bedoeling kan anders zijn dan jij denkt).
 
-> One particular point of the tests is that you can infer the **data type** of the outcome of an expression. Especially take care of writing `5.0` (with a decimal point) when the answer is a floating-point number, and writing `5` if the answer is an integer.
+Antwoorden staan achterin het boekje dus je kunt altijd even controleren of het goed gaat.
 
-When done with the test, take a screenshot of the results screen. You must score 100% to pass this exercise.
+Na het oefenen kun je de online test doen. De bedoeling is dat je zo'n testje geheel foutloos kunt doen. Mocht je toch een fout maken dan begin je opnieuw. En als je nou vragen hebt, stel ze gewoon aan de assistenten!
 
-[Take test A now](https://practice.mprog.nl/entry/prog1){:.btn.btn-secondary}
+Als je klaar bent, maak dan een screenshot (geen foto...) van je positieve resultaat en upload deze hieronder.
+
+[Doe test A](https://practice.mprog.nl/entry/prog1){:.btn.btn-secondary}

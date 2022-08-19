@@ -1,6 +1,4 @@
-# Exercises: Control Flow
-
-Watch the videos below for an introduction to conditionals and loops. These are the two most important algorithmic concepts you'll encounter, and both will be part of all programs that you will be writing (and reading!).
+# Basisboek: control flow
 
 <!-- 
 
@@ -38,14 +36,14 @@ Have you used a for-loop in the programs that you previously wrote? Discuss if t
 
 -->
 
-Take your Programming Basics book and do **all exercises** from chapters 4, 5 and 6. It's important to do the exercises by hand (on paper), without using a calculator. When done like that, you'll develop a little bit of intuition about the basic calculations that are part of many computer programs. You will need it for the next module.
+Neem je Basisboek Programmeren en doe alle oefeningen van hoofdstukken 4, 5 en 6. Het is belangrijk om de oefeningen "met de hand" te doen, dus op papier. Zo ontwikkel je een beetje intuitie over de berekeningen en operaties die onderdeel zijn van alle computerprogramma's.
 
-If you already have some experience with calculations in programming languages, be sure to do the last few exercises of every page and check if what you think is the answer is indeed correct! All answers are in the back of the book.
+Als je al ervaring hebt met een programmeertaal dan is het aan te raden om alsnog even de laatste paar sommen van elke pagina te doen om te dubbelchecken dat je begrijpt wat de bedoeling is (onze bedoeling kan anders zijn dan jij denkt).
 
-After completing your practice exercises you will take an online test. We intend you to make it without errors. When you fail the online test, you can simply take it again. If you have any questions, just drop the question in the forums and discuss!
+Antwoorden staan achterin het boekje dus je kunt altijd even controleren of het goed gaat.
 
-> One particular point of the tests is that you can infer the **data type** of the outcome of an expression. Especially take care of writing `5.0` (with a decimal point) when the answer is a floating-point number, and writing `5` if the answer is an integer.
+Na het oefenen kun je de online test doen. De bedoeling is dat je zo'n testje geheel foutloos kunt doen. Mocht je toch een fout maken dan begin je opnieuw. En als je nou vragen hebt, stel ze gewoon aan de assistenten!
 
-When done with the test, take a screenshot of the results screen. You must score 100% to pass this exercise.
+Als je klaar bent, maak dan een screenshot (geen foto...) van je positieve resultaat en upload deze hieronder.
 
-[Take test B now](https://practice.mprog.nl/entry/prog1){:.btn.btn-secondary}
+[Doe test B](https://practice.mprog.nl/entry/prog1){:.btn.btn-secondary}
