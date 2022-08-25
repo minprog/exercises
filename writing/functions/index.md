@@ -1,6 +1,6 @@
 # Functions
 
-> **Zelfstandig door te werken opdracht.**
+> **Zelfstandig.**
 >
 > Deze opdracht is niet bedoeld voor samenwerken, maar je hoeft 'm ook niet helemaal alleen te doen. Het doel is ervaring opdoen met technieken en daarom moet je alles zelf oefenen. Maar schroom niet hulp te vragen, en als het nodig is kan iemand het even voordoen. Als je naderhand maar zelf alle stappen doorlopen hebt.
 >
@@ -12,35 +12,34 @@
 >
 > Na maken van de opdracht kun je extra bestuderen hoe je bovenstaande dingen hebt aangepakt.
 
-
 ## Getting started
 
 Create a new file called `functions.c`.
 
 Copy the following code into the file:
 
-	#include <stdio.h>
+    #include <stdio.h>
 
-	int times_two(int a);
-	void print_int(int a);
+    int times_two(int a);
+    void print_int(int a);
 
-	int main (void)
-	{
-	    int x = 2;
-	    int y = times_two(x);
+    int main (void)
+    {
+        int x = 2;
+        int y = times_two(x);
 
-	    print_int(y);
-	}
+        print_int(y);
+    }
 
-	int times_two(int a)
-	{
-	    return a * 2;
-	}
+    int times_two(int a)
+    {
+        return a * 2;
+    }
 
-	void print_int(int a)
-	{
-	    printf("Value = %i\n", a);
-	}
+    void print_int(int a)
+    {
+        printf("Value = %i\n", a);
+    }
 
 ## Exercise 1
 
@@ -61,11 +60,11 @@ Create a function called `print_float` that takes a float as input and prints th
 
 **Test** the function by calling `print_float(2.7444)` from `main` and verify that that it prints:
 
-	Value = 2.74
+    Value = 2.74
 
 ## Exercise 3
 
-Create a function called `average` that takes two *integers* and returns the average of these two integers as a *float*.
+Create a function called `average` that takes two _integers_ and returns the average of these two integers as a _float_.
 
 What should the protoype look like? What are the types of the parameters? What is the type of the return value?
 
@@ -75,26 +74,26 @@ Think of a use case. E.g., the average of 4 and 7 is 5.5. Does your function do 
 
 ## Exercise 4
 
-Create a function called `max` that takes two *floats* and returns the maximum value as a *float*.
+Create a function called `max` that takes two _floats_ and returns the maximum value as a _float_.
 
 **Test** your function by adding code to `main`.
 
 ## Exercise 5
 
-Create a function called `print_array` that takes two parameters: a *float array* and an *integer* (denoting the length of the array). The function should print the entire array of floats to a precision of two decimals. E.g.,
+Create a function called `print_array` that takes two parameters: a _float array_ and an _integer_ (denoting the length of the array). The function should print the entire array of floats to a precision of two decimals. E.g.,
 
-	float a[] = {1.555, 3, 1.645, 178};
-	print_array(a, 4);
+    float a[] = {1.555, 3, 1.645, 178};
+    print_array(a, 4);
 
 should print something like:
 
-	1.55, 3.00, 1.64, 178.00
+    1.55, 3.00, 1.64, 178.00
 
 **Test** your function, by creating an array in `main` and call the function `print_array` on that array.
 
 ## Exercise 6
 
-Create a function that finds the maximum value in a *float* array. Before you implement the function, ask yourself the following questions:
+Create a function that finds the maximum value in a _float_ array. Before you implement the function, ask yourself the following questions:
 
 - What is a good name for the function?
 - What should the type of the return value be?

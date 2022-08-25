@@ -1,7 +1,8 @@
 # Exercises: Strings
 
+> Zelfstandig.
+>
 > Deze opdracht is niet bedoeld voor samenwerken, maar je hoeft 'm ook niet helemaal alleen te doen. Het doel is ervaring opdoen met technieken en daarom moet je alles **zelf** oefenen. Maar schroom niet hulp te vragen, en als het nodig is kan iemand het even voordoen. Als je naderhand maar zelf alle stappen doorlopen hebt.
-
 
 ## Vertical
 
@@ -27,16 +28,13 @@ Write a program that takes a string from the user and prints each character of t
 - Then, print (with the help of `printf` and a loop) the vertical text.
 - Compile the file with the command `make vertical`.
 
-
 ## Skip
 
 Write a program that takes a string from the user and prints each even character of the string. As per the output below:
 
-
     $ ./skip
     Type something: Great, gifts!
     Get it!
-
 
 ### Specification
 
@@ -45,16 +43,13 @@ Write a program that takes a string from the user and prints each even character
 - Then, print (with the help of `printf` and a loop) only the even characters of this string.
 - Compile the file with the command `make skip`.
 
-
 ## Eek
 
 Write a program that takes a string from the user and tells you how many e's that string contains. As per the output below:
 
-
     $ ./eek
     Type something: Eek a mouse!
     The text "Eek a mouse!" contains 3 e's.
-
 
 ### Specification
 
@@ -64,7 +59,6 @@ Write a program that takes a string from the user and tells you how many e's tha
 - Compile the program with the command `make eek`.
 - Make sure your program can handle both upper and lower case ‘e'.
 - Bonus: I always dislike it when a computer program says something ungrammatical like `The text "one" contains 1 e's.`. Make sure it handles the singular case correctly by saying `The text "one" contains 1 e.`, instead.
-
 
 ## tHe CaSe Of BoB
 
@@ -78,13 +72,11 @@ Create a program that turns a string into the alternating case of Spongebob.
     Type something: Know your meme
     Spongebob says: kNoW yOuR mEmE
 
-
 ### Specification
 
 - Create a file called `bob.c`.
 - Create a program that asks for user input and changes it into alternating case. Start with lower case, and make sure to skip spaces and punctuation.
 - Compile the program with the command `make bob`.
-
 
 ## emordnilaPalindrome (optional)
 
@@ -94,13 +86,11 @@ Write a program that takes a string from the user and determines if it is a pali
     Type something: Never odd or even
     The text "Never odd or even" is a palindrome
 
-
 ### Specification
 
 - Create a file called `palindrome.c`.
 - Compile the program with the command `make palindrome`.
 - Make sure your program is not case sensitive.
-
 
 ## Taboo (optional)
 
@@ -123,10 +113,9 @@ If you want to make this exercise even more challenging, write the program in su
 - Create a file called `taboo.c`.
 - Write a program that takes a string from the user and replaces all instances of 'cat' for 'dog'.
 
-
 ## How to submit
 
-As soon as you're done, submit your implementations below! 
+As soon as you're done, submit your implementations below!
 
 3. Type the names of students that you've worked with on this problem: <input name="form[samen]" type="text" required>
 

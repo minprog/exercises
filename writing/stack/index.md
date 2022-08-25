@@ -1,16 +1,20 @@
 # Stack
 
+> **Zelfstandig.**
+>
+> Deze opdracht is niet bedoeld voor samenwerken, maar je hoeft 'm ook niet helemaal alleen te doen. Het doel is ervaring opdoen met technieken en daarom moet je alles zelf oefenen. Maar schroom niet hulp te vragen, en als het nodig is kan iemand het even voordoen. Als je naderhand maar zelf alle stappen doorlopen hebt.
+
 This is your last assignment in C! It's all about **abstract data types**. What are those? Well, let's take a look at types of data that we have seen so far:
 
 - C has many built-in **data types** such as `int`, `float` and "pointer".
 
 - C also has some data types that you can use to manage **collections** of data:
 
-    - For structs, you have to specify which fields are in it and what types those fields have. The number of fields and their names and types are fixed.
+  - For structs, you have to specify which fields are in it and what types those fields have. The number of fields and their names and types are fixed.
 
-    - For arrays, you specify just a single type, because each element in an array has the same type. You have to known in advance how many entries you will need.
+  - For arrays, you specify just a single type, because each element in an array has the same type. You have to known in advance how many entries you will need.
 
-- Using all of these built-in data types, we can create our own **dynamic data structures**, which can be designed to work well with certain algorithms (like a well-designed hash table structure that will make a dictionary lookup function *very* fast).
+- Using all of these built-in data types, we can create our own **dynamic data structures**, which can be designed to work well with certain algorithms (like a well-designed hash table structure that will make a dictionary lookup function _very_ fast).
 
 There are many dynamic data structures of many forms, and many of these structures are well-known and have been for decades. People have been designing data structures and algorithms since the dawn of the computing era in the 1950s.
 
@@ -45,7 +49,7 @@ Stacks are simplified lists that support two operations very efficiently:
 
 These are the core operations for a stack. Why these? Think of a stack of plates on a table. If you're asked to get one plate, you would usually take the top-most plate, right? Assuming that they are all nice and clean, of course.
 
-This analogy is very appropriate, but it is not the *reason* that stacks exist. They exist because the idea of a stack has proven to be very useful in many algorithms (and unfortunately there's also a common error associated with this structure: the 'stack overflow', which happens if a stack has limited space and it gets full).
+This analogy is very appropriate, but it is not the _reason_ that stacks exist. They exist because the idea of a stack has proven to be very useful in many algorithms (and unfortunately there's also a common error associated with this structure: the 'stack overflow', which happens if a stack has limited space and it gets full).
 
 Back to the stack itself. Although push and pop are essential, programs with stacks often support a few more operations:
 
@@ -96,7 +100,6 @@ You can now create a "stack" by allocating memory for the root node:
 
 When the `root` and `size` are set to a null value, the stack is completely valid: it does not contain any elements, it's size is 0 and the root points to `NULL`. It's all very consistent!
 
-
 ## What to do
 
 Implement the following functions:
@@ -117,7 +120,6 @@ Observe the following details:
 
 Make sure you understand why these return types and parameters are as they are.
 
-
 ## Hints
 
 - `create()` should create (malloc!) a blank stack-type node and return a pointer to it
@@ -128,8 +130,7 @@ Make sure you understand why these return types and parameters are as they are.
 
 - `destroy()` should take a stack, `free` any remaining values in it, and also `free` the stack itself.
 
-- `print_stack()` should take a stack and print the values in it. It will be quite similar to the function `print_list()` that you wrote in an earlier exercises! But, remember that the stack itself is *not* the same thing as the first *element* of the stack (earlier, the "list" was simply a pointer to the first element of the list). Your function should show the stack from bottom to top on one line, meaning that the value that was added last, should be printed as the rightmost value.
-
+- `print_stack()` should take a stack and print the values in it. It will be quite similar to the function `print_list()` that you wrote in an earlier exercises! But, remember that the stack itself is _not_ the same thing as the first _element_ of the stack (earlier, the "list" was simply a pointer to the first element of the list). Your function should show the stack from bottom to top on one line, meaning that the value that was added last, should be printed as the rightmost value.
 
 ## Testing
 

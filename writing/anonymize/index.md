@@ -1,5 +1,7 @@
 # Anonymize
 
+> Zelfstandig.
+>
 > Samenwerken bij deze opdracht is niet toegestaan; het is prima om medestudenten en anderen om hulp te vragen, als het er maar niet op neerkomt dat iemand anders een deel van het werk voor je doet. Voorbeelden van "redelijke" en "onredelijke" manieren van samenwerken vind je in de studiewijzer.
 
 This assignment builds on your experience from "Whodunit". Your goal is to modify one part of an image instead of every pixel.
@@ -63,12 +65,12 @@ Got time left? Improve your program so it is not hardcoded for `suspect.bmp`. Yo
 
 ## How to submit
 
-As soon as you're done, submit your `censor.c` implementation, below! 
+As soon as you're done, submit your `censor.c` implementation, below!
 
 1. Toward CS50 IDE's top-left corner, within its "file browser" (not within a terminal window), control-click or right-click your `censor.c` file (that's within your `~/problems/anonymize` directory) and then select **Download**. You should find that your browser has downloaded `censor.c`.
 
-3. Make sure you are signed in to this website.
+2. Make sure you are signed in to this website.
 
-4. In the form below, choose the files that you just downloaded.
+3. In the form below, choose the files that you just downloaded.
 
-5. Press "Submit for grading". Presto!
+4. Press "Submit for grading". Presto!
