@@ -119,6 +119,6 @@ As soon as you're done, submit your implementations below!
 
 3. Type the names of students that you've worked with on this problem: <input name="form[samen]" type="text" required>
 
-4. In the form below, choose the files that you just downloaded.
+4. Upload your programs in the form below.
 
 5. Press "Submit for grading". Presto!
