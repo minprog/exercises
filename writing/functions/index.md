@@ -10,7 +10,7 @@
 > - hoe je parameters gebruikt, en
 > - hoe je return gebruikt.
 >
-> Na maken van de opdracht kun je extra bestuderen hoe je bovenstaande dingen hebt aangepakt.
+> Na het maken van de opdracht kun je extra bestuderen hoe je bovenstaande dingen hebt aangepakt.
 
 ## Getting started
 
@@ -23,7 +23,7 @@ Copy the following code into the file:
     int times_two(int a);
     void print_int(int a);
 
-    int main (void)
+    int main(void)
     {
         int x = 2;
         int y = times_two(x);
@@ -102,3 +102,7 @@ Create a function that finds the maximum value in a _float_ array. Before you im
 Think of a couple of good testcases. What is the max of `{1.555, 3, 1.645, 178}`? What is the max of an array with only one element? What is the max of an empty array?
 
 **Test** your function by adding code to `main`.
+
+## How to submit
+
+Make sure all your functions are in a file called `functions.c`. Then submit this file in the form below.
