@@ -12,8 +12,7 @@
 > - hoe variabelen zich gedragen als ze buiten of binnen functies zijn gedefinieerd, en
 > - hoe parameters zich gedragen.
 >
-> Na maken van de opdracht kun je extra bestuderen hoe je bovenstaande dingen hebt aangepakt. -->
-
+> na het maken van de opdracht kun je extra bestuderen hoe je bovenstaande dingen hebt aangepakt. -->
 
 <!--## Video
 
@@ -23,7 +22,6 @@
 
 [Open Functions on Youtube](https://www.youtube.com/watch?v=n1glFqt3g38)
  -->
-
 
 Neem je Basisboek Programmeren en doe alle oefeningen van hoofdstukken 10 en 11. Het is belangrijk om de oefeningen "met de hand" te doen, dus op papier. Zo ontwikkel je een beetje intuitie over de berekeningen en operaties die onderdeel zijn van alle computerprogramma's.
 
