@@ -22,9 +22,26 @@ Put your answers in a nicely formatted file called `answers.md` so you can submi
 
 ## Getting started
 
-    mkdir -p ~/exercises/beatles
-    cd ~/exercises/beatles/
-    wget https://github.com/minprog/exercises/raw/main/writing/beatles/beatles.c
+Create a file called `beatles.c` and add this code:
+
+    #include <stdio.h>
+    #include <cs50.h>
+
+    struct musician {
+        string name;
+        string instrument;
+        int year_born;
+    };
+
+    int main()
+    {
+        // Step 1: Greate a 'john' variable
+        // Step 2: Set the fields to the appropriate values
+        // Step 4: Call the print function on 'john'
+
+    }
+
+    // Step 3: create a print function
 
 ## Goal
 
