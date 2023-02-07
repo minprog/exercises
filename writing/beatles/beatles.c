@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <cs50.h>
 
-struct musician {
+struct musician 
+{
     string name;
     string instrument;
     int year_born;
