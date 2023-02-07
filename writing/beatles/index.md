@@ -27,7 +27,8 @@ Create a file called `beatles.c` and add this code:
     #include <stdio.h>
     #include <cs50.h>
 
-    struct musician {
+    struct musician 
+    {
         string name;
         string instrument;
         int year_born;
@@ -74,7 +75,8 @@ The first goal is to create and print a "musician" struct variable for John.
 
 The file `beatles.c` starts with the definition of a `musician` struct:
 
-    struct musician {
+    struct musician 
+    {
         string name;
         string instrument;
         int year_born;
