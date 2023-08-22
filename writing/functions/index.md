@@ -102,7 +102,3 @@ Create a function that finds the maximum value in a _float_ array. Before you im
 Think of a couple of good testcases. What is the max of `{1.555, 3, 1.645, 178}`? What is the max of an array with only one element? What is the max of an empty array?
 
 **Test** your function by adding code to `main`.
-
-## How to submit
-
-Make sure all your functions are in a file called `functions.c`. Then submit this file in the form below.

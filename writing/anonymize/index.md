@@ -62,15 +62,3 @@ If you want to change your program you can make it by either calling `make anony
 ## Done?
 
 Got time left? Improve your program so it is not hardcoded for `suspect.bmp`. You are now permitted to change anything you need in `anonymize.c`, `censor.c` and `censor.h` to allow the user to input coordinates for the black bar.
-
-## How to submit
-
-As soon as you're done, submit your `censor.c` implementation, below!
-
-1. Toward CS50 IDE's top-left corner, within its "file browser" (not within a terminal window), control-click or right-click your `censor.c` file (that's within your `~/problems/anonymize` directory) and then select **Download**. You should find that your browser has downloaded `censor.c`.
-
-2. Make sure you are signed in to this website.
-
-3. In the form below, choose the files that you just downloaded.
-
-4. Press "Submit for grading". Presto!
