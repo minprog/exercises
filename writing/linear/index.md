@@ -153,7 +153,3 @@ When you implement `search`, think about the edge cases:
 - What happens if the haystack is empty?
 
 Make sure those cases are handled correctly!
-
-## How to submit
-
-Type the names of students that you've worked with on this problem: <input name="form[samen]" type="text" required>

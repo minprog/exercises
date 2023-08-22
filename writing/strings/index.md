@@ -112,13 +112,3 @@ If you want to make this exercise even more challenging, write the program in su
 
 - Create a file called `taboo.c`.
 - Write a program that takes a string from the user and replaces all instances of 'cat' for 'dog'.
-
-## How to submit
-
-As soon as you're done, submit your implementations below!
-
-3. Type the names of students that you've worked with on this problem: <input name="form[samen]" type="text" required>
-
-4. Upload your programs in the form below.
-
-5. Press "Submit for grading". Presto!
