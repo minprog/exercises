@@ -20,4 +20,4 @@ Na het oefenen kun je de online test doen. De bedoeling is dat je zo'n testje ge
 
 Als je klaar bent, maak dan een screenshot (geen foto...) van je positieve resultaat en upload deze hieronder.
 
-[Doe test C](https://practice.mprog.nl/entry/prog1){:.btn.btn-secondary}
+[Doe test C](https://practice.proglab.nl/entry/prog1){:.btn.btn-secondary}
