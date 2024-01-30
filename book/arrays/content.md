@@ -16,7 +16,7 @@ Als je al ervaring hebt met een programmeertaal dan is het aan te raden om alsno
 
 Antwoorden staan achterin het boekje dus je kunt altijd even controleren of het goed gaat.
 
-Na het oefenen kun je de online test doen. De bedoeling is dat je zo'n testje geheel foutloos kunt doen. Mocht je toch een fout maken dan begin je opnieuw. En als je nou vragen hebt, stel ze gewoon aan de assistenten!
+Na het oefenen kun je de online test doen. De bedoeling is dat je zo'n testje geheel foutloos kunt doen. Mocht je toch een fout maken dan begin je opnieuw. En als je nou vragen hebt, check het even met je medestudenten. Kom je er samen niet uit, vraag dan gerust na bij de assistenten.
 
 Als je klaar bent, maak dan een screenshot (geen foto...) van je positieve resultaat en upload deze hieronder.
 
