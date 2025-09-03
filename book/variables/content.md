@@ -58,6 +58,6 @@ Antwoorden staan achterin het boekje dus je kunt altijd controleren of het goed 
 
 Na het oefenen kun je de online test doen. De bedoeling is dat je zo'n testje geheel foutloos kunt doen. Mocht je toch een fout maken dan begin je opnieuw. En als je nou vragen hebt, check het even met je medestudenten. Kom je er samen niet uit, vraag dan gerust na bij de assistenten.
 
-Als je klaar bent, maak dan een screenshot (geen foto...) van je positieve resultaat en upload deze hieronder.
+Als je klaar bent, maak dan een screenshot (geen foto...) van je positieve resultaat en lever deze in.
 
 [Doe test A](https://practice.proglab.nl/entry/prog1){:.btn.btn-secondary}
